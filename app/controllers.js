@@ -22,7 +22,7 @@ weatherApp.controller("forecastController", [
     $scope.days = $routeParams.days || "2";
 
     $scope.weatherAPI = $resource(
-      "https://api.openweathermap.org/data/2.5/onecall?APPID=7423253aeb102c51c2c100b80c8ad041",
+      "https://api.openweathermap.org/data/2.5/onecall?APPID=e59868343831911bd5ad5dbc43cb5287",
       { callback: "JSON_CALLBACK" },
       { get: { method: "JSONP" } }
     );
